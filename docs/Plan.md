@@ -1,5 +1,21 @@
 ## Project Plan
 
+taa-nlp-system/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+├── notebooks/
+├── src/
+├── models/
+├── reports/
+│   └── figures/
+├── tests/
+└── docs/
+
 0. Principles
 
 Orthography: Decide early (spelling, diacritics, punctuation), write it down, and be consistent.
