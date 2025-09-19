@@ -22,12 +22,15 @@ Orthography: Decide early (spelling, diacritics, punctuation), write it down, an
 
 Versioning: Track everything (text, audio, lexicon, code) and keep metadata (speaker, topic, date, source).
 
+0.1 Preprocessing Pipeline
+
+Image input -> convert to grayscale (if needed) -> background removal (Gaussian filter)
+
 1. Digitize & Structure the Data
 1.1 Dictionary (book)
 
 Scan: 300–600 dpi.
-
-OCR: Start with Tesseract/Kraken. Fine-tune if script is poorly supported.
+OCR: 
 
 Layout parsing: Extract lemma, POS, senses, examples, notes.
 
